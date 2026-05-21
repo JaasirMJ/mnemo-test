@@ -1,0 +1,10 @@
+<input
+  type="text"
+  placeholder="Search concepts..."
+  value={searchQuery}
+  onChange={(e) => {setSearchQuery(e.target.value)}
+  className="border p-2 rounded"
+/> 
+
+ 
+
